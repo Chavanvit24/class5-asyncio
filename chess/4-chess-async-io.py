@@ -33,3 +33,8 @@ if __name__ == "__main__":
     start_time = time.perf_counter()
     asyncio.run(async_io())
     print(f"Finished in {round(time.perf_counter() - start_time)} secs")
+
+# ใช้เวลาคิด 5 วินาที เมื่อเราเล่นเสร็จจะไปเล่นรอบถัดไปแล้วทำแบบนี้กับทุกคน
+# 1 เกมเราเดิน30 รอบ มี 24 กระดาน 5*30*24 = 3600 วินาที = 1 ชั่วโมง
+
+# 100 รอบ = 5*30*100 = 4ชั่วโมง 10นาที

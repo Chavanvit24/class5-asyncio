@@ -25,21 +25,3 @@ loop.close()
 
 end = time.time()
 print(f'Time: {end-start:.2f} sec')
-
-
-# #result
-# task A: Computing 0+1
-# Time: 0.00
-# task A: Computing 1+2
-# Time: 0.00
-# Task A: Sum = 3
-
-# task B: Computing 0+1
-# Time: 0.00
-# task B: Computing 1+2
-# Time: 0.00
-# task B: Computing 3+3
-# Time: 0.00
-# Task B: Sum = 6
-
-# Time: 0.00 sec
